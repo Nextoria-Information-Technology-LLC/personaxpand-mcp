@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.personaxpand/personaxpand",
+  "title": "PersonaXpand",
+  "description": "Post, schedule, answer comments and DMs in your voice, and check analytics across 8 social networks.",
+  "version": "1.0.0",
+  "websiteUrl": "https://personaxpand.com/features/ai-assistants",
+  "icons": [{ "src": "https://personaxpand.com/favicon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }],
+  "remotes": [{ "type": "streamable-http", "url": "https://personaxpand.com/mcp" }]
+}

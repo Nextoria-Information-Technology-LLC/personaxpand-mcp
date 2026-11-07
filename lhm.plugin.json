@@ -1,7 +1,7 @@
 {
   "identifier": "personaxpand",
   "name": "PersonaXpand",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Nextoria Information Technology LLC",
   "authorUrl": "https://github.com/Nextoria-Information-Technology-LLC",
   "category": "productivity",
@@ -9,5 +9,267 @@
   "description": "Post and schedule to 8 social networks, answer comments and DMs in your own voice, and check analytics. Remote MCP server with OAuth sign-in; replies are shown to you before they are sent.",
   "homepage": "https://personaxpand.com/features/ai-assistants",
   "icon": "https://personaxpand.com/favicon-512.png",
-  "tags": ["social-media", "scheduling", "instagram", "linkedin", "auto-reply", "analytics", "marketing"]
+  "tags": [
+    "social-media",
+    "scheduling",
+    "instagram",
+    "linkedin",
+    "auto-reply",
+    "analytics",
+    "marketing"
+  ],
+  "tools": [
+    {
+      "name": "get_profile",
+      "description": "Read the signed-in person's profile and settings",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_connected_accounts",
+      "description": "List the social accounts connected to PersonaXpand",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_plan_usage",
+      "description": "Show what is left on the person's plan",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_voice",
+      "description": "Read the person's writing voice, rules and length per network",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_notifications",
+      "description": "List recent notifications",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "create_post",
+      "description": "Create a draft post for one or more networks",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "update_post",
+      "description": "Edit a draft or scheduled post",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_post",
+      "description": "Read one post with its per-network versions",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_posts",
+      "description": "List posts by status and date",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "schedule_post",
+      "description": "Schedule a post for a time or the best time",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "reschedule_post",
+      "description": "Move a scheduled post to a new time",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "publish_post_now",
+      "description": "Publish a post immediately",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "pause_post",
+      "description": "Pause a scheduled post",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "resume_post",
+      "description": "Resume a paused post",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "delete_post",
+      "description": "Delete a post",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_inbox",
+      "description": "List new comments, DMs and mentions",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_conversation",
+      "description": "Read a full conversation thread",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "send_reply",
+      "description": "Send a reply the person has approved",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "schedule_reply",
+      "description": "Schedule an approved reply",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "mark_handled",
+      "description": "Mark a message as handled",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_reply_drafts",
+      "description": "List auto-reply drafts waiting for approval",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "approve_reply_draft",
+      "description": "Approve and send a reply draft",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "reject_reply_draft",
+      "description": "Turn down a reply draft",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_auto_reply_settings",
+      "description": "Read auto-reply settings",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "set_auto_reply",
+      "description": "Turn auto-replies on or off",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "set_account_auto_reply",
+      "description": "Set auto-replies for one account",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "create_auto_reply_rule",
+      "description": "Create an auto-reply rule",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "update_auto_reply_rule",
+      "description": "Change an auto-reply rule",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "delete_auto_reply_rule",
+      "description": "Delete an auto-reply rule",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_analytics_summary",
+      "description": "Summarise how posts performed",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "refresh_analytics",
+      "description": "Pull fresh numbers from the networks",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_best_times",
+      "description": "Best times to post for each network",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_media",
+      "description": "List the person's media library",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "import_media_from_link",
+      "description": "Add a photo or video from a link",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "create_upload_link",
+      "description": "Create a one-time upload link",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_upload_result",
+      "description": "Check the result of an upload link",
+      "inputSchema": {
+        "type": "object"
+      }
+    }
+  ]
 }

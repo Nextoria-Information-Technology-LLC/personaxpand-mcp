@@ -1,0 +1,13 @@
+{
+  "identifier": "personaxpand",
+  "name": "PersonaXpand",
+  "version": "1.0.0",
+  "author": "Nextoria Information Technology LLC",
+  "authorUrl": "https://github.com/Nextoria-Information-Technology-LLC",
+  "category": "productivity",
+  "cloudEndpoint": "https://personaxpand.com/mcp",
+  "description": "Post and schedule to 8 social networks, answer comments and DMs in your own voice, and check analytics. Remote MCP server with OAuth sign-in; replies are shown to you before they are sent.",
+  "homepage": "https://personaxpand.com/features/ai-assistants",
+  "icon": "https://personaxpand.com/favicon-512.png",
+  "tags": ["social-media", "scheduling", "instagram", "linkedin", "auto-reply", "analytics", "marketing"]
+}

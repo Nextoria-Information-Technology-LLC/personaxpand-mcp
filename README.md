@@ -2,7 +2,7 @@
 
 # PersonaXpand MCP server
 
-Run your own social media accounts from Claude and other AI assistants. Post, schedule, answer comments and DMs in your own voice, and check your analytics across 8 social networks.
+Run your own social media accounts from Claude and other AI assistants. Post, schedule, answer comments and DMs in your own voice, and check your analytics on Instagram, Facebook, X, LinkedIn, YouTube, Threads and Bluesky.
 
 - **Endpoint:** `https://personaxpand.com/mcp` (remote, Streamable HTTP)
 - **Auth:** OAuth 2.0 with dynamic client registration and PKCE. No API key to copy.
@@ -14,7 +14,7 @@ This is a hosted server. This repository holds its description and registry entr
 
 ## What you can do
 
-**Posting and scheduling.** Write a post in chat, then publish it now, schedule it, or let PersonaXpand pick your best time. One post can go to Instagram, Facebook, X, LinkedIn, YouTube, Threads, Pinterest and Bluesky, each version checked against that network's rules first. Pause, move or delete scheduled posts.
+**Posting and scheduling.** Write a post in chat, then publish it now, schedule it, or let PersonaXpand pick your best time. One post can go to Instagram, Facebook, X, LinkedIn, YouTube, Threads and Bluesky, each version checked against that network's rules first. Pause, move or delete scheduled posts.
 
 **Replies to comments, DMs and mentions.** See what came in, read a conversation and answer it. The assistant shows you each reply and sends it only after you say yes. Approve or turn down reply drafts, and change your auto-reply settings and rules. Replies work on Instagram, Facebook, X, YouTube and Threads; DMs on Instagram and Facebook.
 
